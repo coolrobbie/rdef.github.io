@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "headlineparse + children and media use"
 date: 2024-07-12
 ---
