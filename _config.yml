@@ -1,4 +1,4 @@
-theme: minima
+theme: hyde
 
 collections:
   _posts:
