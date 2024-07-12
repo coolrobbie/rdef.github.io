@@ -1,7 +1,1 @@
 theme: hyde
-
-collections:
-  posts:
-    output: true
-
-collections_dir: _posts
