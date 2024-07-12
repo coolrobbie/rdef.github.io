@@ -1,7 +1,7 @@
 theme: hyde
 
 collections:
-  _posts:
+  posts:
     output: true
 
 collections_dir: _posts
