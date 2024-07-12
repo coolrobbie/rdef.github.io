@@ -1,1 +1,6 @@
 theme: minima
+
+collections:
+  _posts
+
+collections_dir: _posts
