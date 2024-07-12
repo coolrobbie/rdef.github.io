@@ -1,3 +1,3 @@
 ---
-title: resaerch and coding blog
+title: research and coding blog
 ---
