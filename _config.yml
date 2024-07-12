@@ -1,6 +1,7 @@
 theme: minima
 
 collections:
-  _posts
+  _posts:
+    output: true
 
 collections_dir: _posts
