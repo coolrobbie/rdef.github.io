@@ -23,7 +23,7 @@ In our case, we used the tool to capture some 1200 articles, with ~100 duplicate
 
 The major gridlines are yearly, and I’ve added in a red trend line that notes the tendency towards more negative content over time. I’d just caution the value of the trend line itself, as these are not really meant to track data of this type in this way. While it does present a trajectory, this is mainly because there are quite a few 0-scored items early on, and it is using the first entry as a starting point. It would be better to signal a rolling average score on a weekly or monthly basis, but we needed this graph for discussion more than we needed it for publication. What the trend line does do is point to a trend towards a negativity of -0.2. While this may not sound significant, vader does not provide a relative compound score of sentiment. This is an absolute score. This would suggest that there is a significant negative tendency here.
 
-<img src="../images/children-and-tech.png" title="Graph of the sentiment analysis of the captured headlines" alt="Graph showing a slight long-term negative tendency">
+<img src="../../images/children-and-tech.png" title="Graph of the sentiment analysis of the captured headlines" alt="Graph showing a slight long-term negative tendency">
 
 There are a lot of neutral articles sitting at or near 0, and these are indicative of items that are not making any significant claim in their title, while still speaking to the topic of children and technology. It would be easy to read this neutrality as being ‘unimportant’ or otherwise signalling a non-problem, but it’s worth paying attention to the degree to which technology is seen as unremarkable or unimportant.
 
