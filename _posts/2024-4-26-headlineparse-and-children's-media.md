@@ -6,6 +6,10 @@ author: robbie
 
 Made a small update to the headlineparse tool, which you’ll find [here](https://github.com/rdef/headlineparse).
 
+If you use the tool in your research, please cite it in the following format:
+
+   Fordyce, R. (2024). headlineparse (0.1). _Zenodo._ https://doi.org/10.5281/zenodo.11069624
+
 ## Tool overview
 The tool can be used as-is from a directory, provided python and the related libraries are installed. It parses any RTF files that appear to match the Factiva layout within its directory, and then turns each headline into a DataFrame row. It performs sentiment analysis on the headline, and then exports it as an Excel spreadsheet. It doesn’t have onboard visualisation capabilities in order to keep the project reasonably lightweight, so any charts will need to be created in another tool.
 
