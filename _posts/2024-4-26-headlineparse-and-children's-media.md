@@ -32,5 +32,5 @@ What this means is that headlines are likely to be relatively heightened in emot
 
 The source data for the graph above was created with a provisional search string, which will be revised for the final working paper. The newspapers targeted for analysis were selected to align with the papers that the National Library of Australia keeps on record, which are noted here. The timeframe for data selection runs from 2000/01/01 to 2022/12/31. No other search terms were filtered.
 
-`(child* OR infant* OR toddler* OR baby OR babies) AND (digital* OR technolog* OR internet OR online OR electronic* OR networked OR screen time OR mobile OR phone* OR smart phone* OR smartphone* OR cell phone OR tablet OR ipad OR iPhone OR computer* OR "smart toys" OR “electronic toys” OR social media OR platform* OR youtube OR video* OR streaming OR streams OR games OR gaming OR messaging OR chatroom*)`
+```(child* OR infant* OR toddler* OR baby OR babies) AND (digital* OR technolog* OR internet OR online OR electronic* OR networked OR screen time OR mobile OR phone* OR smart phone* OR smartphone* OR cell phone OR tablet OR ipad OR iPhone OR computer* OR "smart toys" OR “electronic toys” OR social media OR platform* OR youtube OR video* OR streaming OR streams OR games OR gaming OR messaging OR chatroom*)```
 
