@@ -4,7 +4,7 @@ title: "headlineparse + children and media use"
 author: robbie
 ---
 
-## Updated 18 July 2024
+## Updated 18 July 2024 10.44am
 
 Made a small update to the headlineparse tool, which you’ll find [here](https://github.com/rdef/headlineparse).
 
