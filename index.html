@@ -5,7 +5,14 @@ layout: default
 ---
 <h3>Latest Posts</h3>
 
-<h2>updated 15.40</h2>
+<h2>updated 15.49</h2>
+
+{% for post in site.posts %}
+    <p><b><a href="{{ post.url }}">{{ post.title }}</a></b></p>
+      {{ post.excerpt }}
+      <a href="{{ post.url }}">[[ Read more ]]</a></h2>
+    {% endtablerow %}
+  {% endfor %}
 
 <table>
   {% for tablerow post in site.posts %}
