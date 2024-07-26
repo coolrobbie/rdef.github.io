@@ -6,6 +6,7 @@ description: >-
   code described here includes both personal interest projects and research-
   relevant materials. If you use it in your research, consider citing me :0
 github_username:  rdef
+linkedin_username: robbie-fordyce-aa9a3578
 
 plugins:
   - jekyll-feed

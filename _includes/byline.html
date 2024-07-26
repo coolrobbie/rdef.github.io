@@ -1,0 +1,16 @@
+<span style="color:gray;font-size:0.75em;">
+    by {{ include.author }}</a>
+    {% if include.date %}
+     - {{include.date | date_to_string}}
+    {% endif %}
+    <br>
+    [{% for ptag in include.tags %}
+      {% if forloop.first %}
+      {{ ptag }}
+      {% else %}
+      | {{ ptag }}
+    {% endif %}
+    {% endfor %}
+    ]
+    </span>
+    <hr style="color:gray;margin-top:10px;margin-bottom:20px" />

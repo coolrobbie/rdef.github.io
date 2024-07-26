@@ -4,22 +4,11 @@ layout: default
 <head>
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
-
+<div style="max-width: 960px;">
 <h2>{{ page.title }}</h2>
 <hr style="color:gray;margin-top:10px;margin-bottom:10px" />
-<span style="color:gray;font-size:0.75em;">
-by <a href="/_authors/{{ page.author }}"> {{ page.author }}</a>
-{% if page.date %}
- - {{page.date | date_to_string}}
-{% endif %}
-<br>
-{% for ptag in page.tags %}
-  {% if forloop.first %}
-  {{ ptag }}
-  {% else %}
-  | {{ ptag }}
-{% endif %}
-{% endfor %}
-</span>
-<hr style="color:gray;margin-top:10px;margin-bottom:20px" />
+
+{% include byline.html author=page.author date=page.date tags=page.tags%}
+
 {{ content }}
+</div>
