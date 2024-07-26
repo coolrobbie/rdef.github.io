@@ -1,7 +1,0 @@
-post content starts with a block that defines various attributes for the post
-
-
----
-title: "test"
-date: 2024-07-12
----

@@ -35,3 +35,6 @@ The source data for the graph above was created with a provisional search string
 
 ```(child* OR infant* OR toddler* OR baby OR babies) AND (digital* OR technolog* OR internet OR online OR electronic* OR networked OR screen time OR mobile OR phone* OR smart phone* OR smartphone* OR cell phone OR tablet OR ipad OR iPhone OR computer* OR "smart toys" OR “electronic toys” OR social media OR platform* OR youtube OR video* OR streaming OR streams OR games OR gaming OR messaging OR chatroom*)```
 
+This search string is case insensitive.
+
+Full results will be published in a working paper in the future, which I'll link to here when it's ready.

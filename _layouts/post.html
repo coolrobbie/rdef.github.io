@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
+
 <h2>{{ page.title }}</h2>
-<hr style="width:75%;color:gray;margin-top:10px;margin-bottom:10px" />
+<hr style="color:gray;margin-top:10px;margin-bottom:10px" />
 <span style="color:gray;font-size:0.75em;">
 by <a href="/_authors/{{ page.author }}"> {{ page.author }}</a>
 {% if page.date %}
@@ -17,5 +18,5 @@ by <a href="/_authors/{{ page.author }}"> {{ page.author }}</a>
 {% endif %}
 {% endfor %}
 </span>
-<hr style="width:75%;color:gray;margin-top:10px;margin-bottom:20px" />
+<hr style="color:gray;margin-top:10px;margin-bottom:20px" />
 {{ content }}
