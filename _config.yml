@@ -1,2 +1,11 @@
 theme: minima
 
+title: coding and research blog
+description: >- 
+  General purpose coding and research blog covering my personal projects. The
+  code described here includes both personal interest projects and research-
+  relevant materials. If you use it in your research, consider citing me :0
+github_username:  rdef
+
+plugins:
+  - jekyll-feed

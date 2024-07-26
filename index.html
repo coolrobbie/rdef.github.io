@@ -13,15 +13,17 @@ layout: default
 <div style="margin-left:20px;font-size:0.75em;">
 by <a href="/_authors/{{ post.author }}"> {{ post.author }}</a>
 {% if post.date %}
- - {{post.date | date_to_string}}
+ - {{post.date | date_to_string}} -
 {% endif %}
+<span style="color:gray">[
 {% for ptag in post.tags %}
   {% if forloop.first %}
-  - {{ ptag }}
+  {{ ptag }}
   {% else %}
    | {{ ptag }}
   {% endif %}
 {% endfor %}
+]</span>
 {{ post.content | truncatewords: 10}}
 <a href="{{ post.url }}">[[ Read more ]]</a></div>
 {% endfor %}
