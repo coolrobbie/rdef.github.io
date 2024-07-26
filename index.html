@@ -3,13 +3,25 @@ title: blog
 description: dr robbie fordyce - coding and research blog 
 layout: default
 ---
-<h2>Latest Posts</h2>
-
-<h2>updated 16.21</h2>
-
+<h3>Latest Posts</h3>
 {% for post in site.posts %}
-<hr style="width:50%;text-align:center;color:gray" />
-<p style="text-indent: 10px;><b><a href="{{ post.url }}">{{ post.title }}</a></b></p>
-<p style="text-indent: 30px;>{{ post.excerpt }}
-<a href="{{ post.url }}">[[ Read more ]]</a></p>
+{% if forloop.first %}
+{% else %}
+<hr style="width:75%;color:gray;margin-top:20px;margin-bottom:5px" />
+{% endif %}
+<b><a href="{{ post.url }}">{{ post.title }}</a></b>
+<div style="margin-left:20px;font-size:0.75em;">
+by <a href="/_authors/{{ post.author }}"> {{ post.author }}</a>
+{% if post.date %}
+ - {{post.date | date_to_string}}
+{% endif %}
+{% for ptag in post.tags %}
+  {% if forloop.first %}
+  - {{ ptag }}
+  {% else %}
+   | {{ ptag }}
+  {% endif %}
+{% endfor %}
+{{ post.content | truncatewords: 10}}
+<a href="{{ post.url }}">[[ Read more ]]</a></div>
 {% endfor %}
