@@ -1,5 +1,2 @@
-# theme: jekyll-theme-dinky
-# remote_theme: hyde
 theme: minima
-plugins:
-  - no_date
+

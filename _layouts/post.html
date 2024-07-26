@@ -1,7 +1,21 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p>{{ page.author }}</p>
-
+<h2>{{ page.title }}</h2>
+<hr style="width:75%;color:gray;margin-top:10px;margin-bottom:10px" />
+<span style="color:gray;font-size:0.75em;">
+by <a href="/_authors/{{ page.author }}"> {{ page.author }}</a>
+{% if page.date %}
+ - {{page.date | date_to_string}}
+{% endif %}
+<br>
+{% for ptag in page.tags %}
+  {% if forloop.first %}
+  {{ ptag }}
+  {% else %}
+  | {{ ptag }}
+{% endif %}
+{% endfor %}
+</span>
+<hr style="width:75%;color:gray;margin-top:10px;margin-bottom:20px" />
 {{ content }}
