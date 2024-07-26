@@ -1,5 +1,10 @@
-Some notes on Berardi’s “Heroes”
-================================
+---
+layout: post
+title: "Some notes on Berardi’s “Heroes”"
+author: robbie
+tags: social-theory murder accelerationism
+---
+
 
 Franco Berardi’s book *[Heroes](https://www.versobooks.com/products/11-heroes)* looks at the sexual/reproductive political aspects of the incel community and its connections to extremist behaviour. The title, Heroes, is an ironic commentary on how these individuals perceive themselves, and the book is clearly from the pre\-Tate period. The work is somewhat anthropological in nature, given its focus on a community in anthropological terms, yet Berardi is not a traditional anthropologist. One consequence of this is that he tends to draw some very long bows with his data. 
 

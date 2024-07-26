@@ -1,13 +1,15 @@
-Identity\-as\-commodity
-=======================
-
-
+---
+layout: post
+title: "Identity-as-commodity"
+author: robbie
+tags: identity social-theory philosophy commodification
+keywords: identity commodification
+---
 
 
 The below is a response to a question on the commodification of identity that I once addressed on social media.
 
----
-
+{% include ex-foot.html %}
 
 There are a large number of scholars who view identity as a core part of capitalist processes, but few of them are people that would be readily classed as philosophers. This does not invalidate their claims, it simply means we should not treat them as philosophical claims. Many are theories from social theorists, some are well\-grounded, but few are systematically grounded in a satisfying ontology. This may be sufficient for you in terms of your question, which is why I mention them here. I would also note that there is likely a disconnect between philosophical precision around the language of identity that I have had to be loose with; theorists do not always commit to a consistent language, and introduce new definitions regularly. I have published before on the distinction and slippages between persona, identity, and subjectivity, and it is on these grounds that I can give you some insight.
 

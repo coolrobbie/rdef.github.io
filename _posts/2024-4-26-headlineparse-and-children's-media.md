@@ -3,6 +3,7 @@ layout: post
 title: "headlineparse + children and media use"
 author: robbie
 tags: children news headlines python code-overview use-case
+keywords: python screen time moral panic children and media television
 ---
 
 Below is a writeup of our use case for the [`headlineparse`](https://github.com/rdef/headlineparse) tool. I wrote this tool in a couple of hours to help parse RTF files with headline data and assorted journalistic metadata into a form that could be analysed via senitment analysis.
