@@ -5,20 +5,11 @@ layout: default
 ---
 <h3>Latest Posts</h3>
 
-<h2>updated 15.49</h2>
+<h2>updated 15.54</h2>
 
 {% for post in site.posts %}
+<hr />
 <p><b><a href="{{ post.url }}">{{ post.title }}</a></b>
-      {{ post.excerpt }}</p>
-      <a href="{{ post.url }}">[[ Read more ]]</a></h2>
+&nbsp;&nbsp;&nbsp;&nbsp;{{ post.excerpt }}</p>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ post.url }}">[[ Read more ]]</a></h2>
 {% endfor %}
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-      <a href="{{ post.url }}">[ Read more ]</a></h2>
-    </li>
-  {% endfor %}
-</ul>
