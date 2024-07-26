@@ -3,12 +3,13 @@ title: blog
 description: dr robbie fordyce - coding and research blog 
 layout: default
 ---
-<h3>Latest Posts</h3>
+<h2>Latest Posts</h2>
 
-<h2>updated 16.01</h2>
+<h2>updated 16.03</h2>
 
 {% for post in site.posts %}
-<hr style="width:50%;text-align:center;color:gray;height:0.5px" />
-<p><b><a href="{{ post.url }}">{{ post.title }}</a></b><br />&nbsp;&nbsp;&nbsp;&nbsp;{{ post.excerpt }}</p>
+<hr style="width:50%;text-align:center;color:gray" />
+<b><a href="{{ post.url }}">{{ post.title }}</a></b>
+&nbsp;&nbsp;&nbsp;&nbsp;{{ post.excerpt }}
 &nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ post.url }}">[[ Read more ]]</a></h2>
 {% endfor %}
