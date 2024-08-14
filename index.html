@@ -3,13 +3,16 @@ title: blog
 description: dr robbie fordyce - coding and research blog 
 layout: default
 ---
-<h3>Latest Posts</h3>
+<head>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<h3>{{ page.title }}</h3>
 {% for post in site.posts %}
 {% if forloop.first %}
 {% else %}
 <hr style="width:75%;color:gray;margin-top:20px;margin-bottom:5px" />
 {% endif %}
-<b><a href="{{ post.url }}">{{ post.title }}</a></b>
+<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
 <div style="margin-left:20px;font-size:0.75em;">
 by {{ post.author }}
 {% if post.date %}

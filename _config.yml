@@ -5,9 +5,13 @@ description: >-
   General purpose coding and research blog covering my personal projects. The
   code described here includes both personal interest projects and research-
   relevant materials. If you use it in your research, consider citing me :0
-github_username:  rdef
-linkedin_username: robbie-fordyce-aa9a3578
-gscholar_username: 8qEXrEkAAAAJ
+
 
 plugins:
   - jekyll-feed
+
+gems:
+  - jekyll-font-awesome-sass
+
+font-awesome:
+  assets: true

@@ -1,15 +1,13 @@
 <footer class="site-footer h-card">
-
-  <div style="width:70%;text-align: right;"><a href="#top">^top</a></div>
-
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
+  <div class="wrapper" style="font-family: monospace;" id="end">
+    <span>
+      {% include directory.html %}
+    </span>
+    <span style="float:right;"><a href="#start">[ ↑ start ↑ ]</a></span>
+    <div>
+      {% include home.html %}
+    </div>
     </div>
 
   </div>
