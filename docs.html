@@ -1,25 +1,23 @@
 ---
-title: blog
+title: pages
 description: dr robbie fordyce - coding and research blog 
 layout: default
 ---
 <head>
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<h3>BLOG | <a href="docs.html">Docs</a></h3>
-{% for post in site.posts %}
+<h3><a href="index.html">Blog</a> | DOCS</h3>
+
+{% for d_page in site.docs %}
 {% if forloop.first %}
 {% else %}
 <hr style="width:75%;color:gray;margin-top:20px;margin-bottom:5px" />
 {% endif %}
-<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-<div class="byline">
-by {{ post.author }}
-{% if post.date %}
- - {{post.date | date_to_string}}
-{% endif %}
+<a href="{{ d_page.url }}"><h4>{{ d_page.title }}</h4></a>
+<div style="margin-left:20px;font-size:0.75em;">
+by {{ d_page.author }}
 - [
-{% for ptag in post.tags %}
+{% for ptag in d_page.tags %}
   {% if forloop.first %}
   <span class="ptag">{{ ptag }}</span>
   {% else %}
@@ -27,7 +25,6 @@ by {{ post.author }}
   {% endif %}
 {% endfor %}
 ]
-<div>{{ post.description }}
-  <p><a href="{{ post.url }}">[[ Read more ]]</a></p></div>
+<div>{{ d_page.description }}&nbsp;--&nbsp;<a href="{{ d_page.url }}">[[ Read more ]]</a></div>
 </div>
 {% endfor %}

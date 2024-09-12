@@ -1,11 +1,15 @@
 theme: minima
 
+collections:
+  docs:
+    output: true
+    permalink: /docs/:slug
+
 title: coding and research blog
 description: >- 
   General purpose coding and research blog covering my personal projects. The
   code described here includes both personal interest projects and research-
-  relevant materials. If you use it in your research, consider citing me :0
-
+  relevant materials. If you use it in your research, consider citing me!
 
 plugins:
   - jekyll-feed
@@ -13,5 +17,3 @@ plugins:
 gems:
   - jekyll-font-awesome-sass
 
-font-awesome:
-  assets: true

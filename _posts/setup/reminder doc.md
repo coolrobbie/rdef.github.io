@@ -6,7 +6,7 @@ layout: post
 title: "test"
 author: robbie
 tags: separate tags are unique combine-for-fun
-date: 2024-07-12
+date: YYYY-MM-DD
 ---
 
 requires a filename structure that mimics YYYY-MM-DD-title.md

@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Some notes on Berardi’s “Heroes”"
+title: "Some notes on Berardi’s *Heroes*"
 author: robbie
 tags: social-theory murder accelerationism
+description: Brief notes on Berardi's work on alt right and anti-feminist violence
 ---
 
 
